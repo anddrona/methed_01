@@ -9,7 +9,7 @@
 </head>
 <body>
     <img src="img/logo.png" alt="Логотип Go" style="height: 66px;" >
-    <div>
+    <section>
         <h2>
             <b>Меню</b>
         </h2>
@@ -20,8 +20,8 @@
            <li><a href="#">Отзывы</a></li>
            <li><a href="#contacts">Контакты</a></li>
         </ul>
-    </div>
-    <div>
+    </section>
+    <section>
         <h2>
             <b>У нас есть всё для классного отдыха с друзьями!</b>
         </h2>
@@ -53,8 +53,8 @@
             </li>
         </ul>
     </figure>
-    </div>
-    <div id="hall">
+    </section>
+    <section id="hall">
         <h2>
             Наши залы
         </h2>
@@ -66,18 +66,137 @@
             <a href="./starwars.html" target="_blank" style="text-decoration: none;color: black;">Star wars</a>
             </li>
             <li>
-            <a href="./wildwest.html"target="_blank" style="text-decoration: none;color: black;">Wild west</a>
+            < a href="./wildwest.html"target="_blank" style="text-decoration: none;color: black;">Wild west</>
             </li>
             <li>
             <a href="./neon.html"target="_blank" style="text-decoration: none;color: black;">Neon style</a>
             </li>
         </ol>
-    </div>
-    <div id="aboutUs">
+    </section>
+<section>
+    <h2>
+        Забронировать
+    </h2>
+    <form action="https://jsonplaceholder.typicode.com/posts" method="post">
+<fieldset>
+    <label>
+        <input type="radio" name="orderHall" value="80's vibes">
+        80's vibes
+    </label>
+    <label>
+        <input type="radio" name="orderHall" value="Star wars">
+        Star wars
+    </label>
+    <label>
+        <input type="radio" name="orderHall" value="Wild west">
+        Wild west
+    </label>
+    <label>
+        <input type="radio" name="orderHall" value="Neon style">
+        Neon style
+    </label>
+</fieldset>
+    <fieldset>
+        <legend>Собери набор развлечений</legend>
+        <fieldset>
+            <legend>Приставка:</legend>
+            <label>
+                <input type="radio" name="ChoiseConsole" value="PlayStation">
+                PlayStation
+            </label>
+            <label>
+                <input type="radio" name="ChoiseConsole" value="Sega">
+                Sega Mega Drive
+            </label>
+            <label>
+                <input type="radio" name="ChoiseConsole" value="X-box">
+                X-box One S
+            </label>
+            <label>
+                <input type="radio" name="ChoiseConsole" value="Dendy">
+                Dendy
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Настольные игры:</legend>
+            <label>
+                <input type="checkbox" name="ChoiseGame" value="Jenga">
+                Jenga
+            </label>
+            <label>
+                <input type="checkbox" name="ChoiseGame" value="Monopoly">
+                Monopoly
+            </label>
+            <label>
+                <input type="checkbox" name="ChoiseGame" value="Manchkin">
+                Манчкин
+            </label>
+            <label>
+                <input type="checkbox" name="ChoiseGame" value="Alias">
+                Alias
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Дополнительно:</legend>
+            <label>
+                <input type="checkbox" name="ChoiseAdd" value="Jenga">
+                Караоке
+            </label>
+            <label>
+                <input type="checkbox" name="ChoiseAdd" value="Monopoly">
+                VR
+            </label>
+        </fieldset>
+    </fieldset>
+    <fieldset>
+        
+        <legend>
+            Выбери дату и время
+        </legend>
+        <label>
+            Дата &#8432; 
+            <input type="date" name="date" required >
+        </label>
+        <label>
+            Время &#8432;
+            <input type="time" name="time" required >
+        </label>
+        <label><br>
+            Количество человек &#8432;
+            <input type="number" name="personsNumber" required style="margin: 1px">
+        </label>
+        <label><br>
+            Имя &#8432;
+            <input type="text" name="name" required style="margin: 1px">
+        </label>
+        <label><br>
+            Фамилия &#8432;
+            <input type="text" name="surname" required style="margin: 1px">
+        </label>
+        <label><br>
+           Номер телефона &#8432;
+            <input type="tel" name="phone" required style="margin: 1px" title="+7-***-***-**-**" pattern="^\+?[7-8]-?[0-9]{3}-?[0-9]{3}-?[0-9]{2}-?[0-9]{2}$">
+        </label>
+        <label><br>
+             <input type="checkbox" name="older18">
+             Я старше 18 лет
+         </label>
+    </fieldset>
+    <button type="submit">Забронировать</button>
+    <label>
+        <input type="checkbox" required>
+       Согласен на обработку данных
+    </label>
+    </form>
+</section>
+
+
+
+    <section id="aboutUs">
     <h2>
         <b>О нас</b>
     </h2>
-        <div>
+        <section>
         Для наших гостей мы создали <i> концeптуально новое игровое пространство виртуальной реальности</i>
         в центральной части города.<br><p>Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать
         Вас топовыми игровыми разработками со всего мира. </p> 
@@ -85,16 +204,16 @@
         <p><b>&laquo;GAME OVER</b> &#8212; это место незабываемых впечатлений&raquo;</p>
             <i>Аркадий Абакшин, создатель игровой территории GAME OVER</i> 
         </blockquote>
-         </div>
-    </div>
-    <div id="contacts">
+         </section>
+    </section>
+    <section id="contacts">
         <h2>
             <b>Контакты</b>
         </h2>
         <p>г. Москва ул. Аквамарина, 16</p>
         <p><a href="tel:89509302893">8(950)930-28-93</a></p>
         <p><a href="mailto:GameOver@gmail.com">GameOver@gmail.com</a></p>
-        <div>
+        <section>
             <ul style="padding-left: 25px">
                 <li>
                     <a href="https://vk.com" target="_blank">Vkontakte</a>
@@ -103,7 +222,7 @@
                     <a href="https://telegram.org" target="_blank">Telegram</a>
                 </li>
             </ul>
-        </div>
-    </div>
+        </section>
+    </section>
 </body>
 </html>
