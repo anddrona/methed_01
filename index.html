@@ -11,7 +11,236 @@
 </head>
 
 <body>
-    <div class="wrapper">
+    <article>
+        <header>
+            <h1>game over</h1>
+            <p>Новый формат игр и отдыха</p>
+        </header>
+        <section class="halls-block">
+            <h3>Наши залы</h3>
+            <a href="./vibes.html" target="_blank">
+                <section class="halls-items">
+                    <p>80’s vibes</p>
+                </section>
+            </a>
+            <a href="./starwars.html" target="_blank">
+                <section class="halls-items">
+                    <p>Star wars</p>
+                </section>
+            </a>
+            <a href="./wildwest.html" target="_blank">
+                <section class="halls-items">
+                    <p>wild west</p>
+                </section>
+            </a>
+            <a href="./neon.html" target="_blank">
+                <section class="halls-items">
+                    <p>neon style</p>
+                </section>
+            </a>
+        </section>
+        <section class="order">
+            <form action="https://jsonplaceholder.typicode.com/posts" method="post">
+                <h3>
+                    Забронировать зал просто
+                </h3>
+                <fieldset>
+                    <label>
+                        <input type="radio" name="orderHall" value="80's vibes">
+                        80's vibes
+                    </label>
+                    <label>
+                        <input type="radio" name="orderHall" value="Star wars">
+                        Star wars
+                    </label>
+                    <label>
+                        <input type="radio" name="orderHall" value="Wild west">
+                        Wild west
+                    </label>
+                    <label>
+                        <input type="radio" name="orderHall" value="Neon style">
+                        Neon style
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Собери набор развлечений
+                    </legend>
+                    <fieldset>
+                        <legend>
+                            Приставки
+                        </legend>
+                        <label>
+                            <input type="radio" name="ChoiseConsole" value="PlayStation">
+                            Play Station
+                        </label>
+                        <label>
+                            <input type="radio" name="ChoiseConsole" value="Sega Mega Drive">
+                            Sega Mega Drive
+                        </label>
+                        <label>
+                            <input type="radio" name="ChoiseConsole" value="X-box One S">
+                            X-box One S
+                        </label>
+                        <label>
+                            <input type="radio" name="ChoiseConsole" value="Dendy">
+                            Dendy
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>
+                            Настольные игры
+                        </legend>
+                        <label>
+                            <input type="checkbox" name="ChoiseGame" value="Jenga">
+                            Jenga
+                        </label>
+                        <label>
+                            <input type="checkbox" name="ChoiseGame" value="Monopoly">
+                            Monopoly
+                        </label>
+                        <label>
+                            <input type="checkbox" name="ChoiseGame" value="Manchkin">
+                            Манчкин
+                        </label>
+                        <label>
+                            <input type="checkbox" name="ChoiseGame" value="Alias">
+                            Alias
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>
+                            Дополнительно
+                        </legend>
+                        <label>
+                            <input type="checkbox" name="ChoiseAdd" value="Karaoke">
+                            Караоке
+                        </label>
+                        <label>
+                            <input type="checkbox" name="ChoiseAdd" value="VR">
+                            VR
+                        </label>
+                    </fieldset>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Выбери дату и время
+                    </legend>
+                    <label>
+                        Дата
+                        <input type="date" name="date" required>
+                    </label>
+                    <label>
+                        Время
+                        <input type="time" name="time" required>
+                    </label>
+                    <label>
+                        Количество человек
+                        <input type="number" name="personsNumber" required>
+                    </label>
+                    <label>
+                        Имя
+                        <input type="text" name="name" required>
+                    </label>
+                    <label>
+                        Фамилия
+                        <input type="text" name="surname" required>
+                    </label>
+                    <label>
+                        Номер телефона
+                        <input type="tel" name="phone" required title="+7-***-***-**-**"
+                            pattern="^\+?[7-8]-?[0-9]{3}-?[0-9]{3}-?[0-9]{2}-?[0-9]{2}$">
+                    </label>
+                    <label>
+                        <input type="checkbox" required>
+                        Я старше 18 лет
+                    </label>
+                </fieldset>
+                <button type="submit">Забронировать</button>
+                <label>
+                    <input type="checkbox" required>
+                    Согласен на обработку данных
+                </label>
+            </form>
+        </section>
+        <section class="about-us">
+            <h3>О нас</h3>
+            <p>
+                Для наших гостей мы создали концeптуально новое игровое пространство виртуальной реальности
+                в центральной части города.
+            </p>
+            <p>Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать
+                Вас топовыми игровыми разработками со всего мира.
+            </p>
+            <blockquote>
+                <p><q><span>GAME OVER &#8212;
+                            это место незабываемых впечатлений</span></q></p>
+                <section>
+                    <img src="./img/images/photo.png" alt="Фото Аркадия Абашкина">
+                    <p>
+                        Аркадий Абакшин, создатель игровой территории GAME OVER
+                    </p>
+                </section>
+            </blockquote>
+        </section>
+        <section class="questions">
+            <h3>
+                Частые вопросы
+            </h3>
+            <ul>
+                <li>
+                    Можно ли забронировать комнату онлайн?
+                </li>
+                <li>
+                    Могут ли мне вернуть деньги за бронь?
+                </li>
+                <li>
+                    Какая комната самая популярная?
+                </li>
+                <li>
+                    Как получить VIP карту?
+                </li>
+                <li>
+                    Какая комната самая популярная?
+                </li>
+            </ul>
+        </section>
+        <section class="contacts">
+            <h3>
+                Контакты
+            </h3>
+            <section>
+                <img src="./img/images/location.svg">
+                <p>г. Москва ул. Аквамарина, 16</p>
+            </section>
+            <section>
+                <img src="./img/images/bx_bxs-phone-call.svg">
+                <a href="tel:89509302893">8 ( 950 ) 930 - 28 - 93</a>
+            </section>
+            <section>
+                <img src="./img/images/envelope.svg">
+                <a href="mailto:GameOver@gmail.com">GameOver@gmail.com</a>
+            </section>
+            <section>
+                <a href="https://vk.com" target="_blank">
+                    <img src="./img/images/entypo-social_vk-with-circle.svg">
+                </a>
+                <a href="https://telegram.org" target="_blank">
+                    <img src="./img/images/bi_telegram.svg">
+                </a>
+                <a href="https://ru.pinterest.com/" target="_blank">
+                    <img src="./img/images/foundation_social-pinterest.svg">
+                </a>
+                <a href="https://www.stumbleupon.com/" target="_blank">
+                    <img src="./img/images/foundation_social-stumbleupon.svg">
+                </a>
+            </section>
+        </section>
+    </article>
+
+
+
+    <!-- <div class="wrapper">
     <img src="img/logo.png" alt="Логотип Go" style="height: 66px;">
     <section>
         <h2>
@@ -89,9 +318,9 @@
                 </header>
                 <section style="display: flex;">
                     <article>
-                        <button type="button" name="orderHall" value="80's vibes">
+                        <input type="button" name="orderHall" value="80's vibes">
                             80's vibes
-                        </button>
+                        </input>
                     </article>
                     <article>
                         <button type="button" name="orderHall" value="Star wars">
@@ -173,9 +402,9 @@
                         </section>
                     </article>
                 </section>
-            </section>
+            </section>-->
 
-            <section>
+    <!-- <section>
                 <header>
                     Выбери дату и время
                 </header>
@@ -184,16 +413,16 @@
                         <section>
                             <select name="date">
                                 <option value=" " disabled selected hidden>Дата</option>
-                            </select>
-                            <!-- <input type="date" name="date" required value="Дата"> -->
-                            <select name="time">
+                            </select> -->
+    <!-- <input type="date" name="date" required value="Дата"> -->
+    <!-- <select name="time">
                                 <option value=" " disabled selected hidden>Время</option>
-                            </select>
-                            <!-- <input type="time" name="time" required> -->
-                        </section>
-                        <article>
-                            <!-- <input type="number" name="personsNumber" required list="Сколько человек" placeholder="Сколько человек"> -->
-                            <select name="personsNumber">
+                            </select> -->
+    <!-- <input type="time" name="time" required> -->
+    <!-- </section>
+                        <article> -->
+    <!-- <input type="number" name="personsNumber" required list="Сколько человек" placeholder="Сколько человек"> -->
+    <!-- <select name="personsNumber">
                                 <option value=" " disabled selected hidden>Сколько человек</option>
                                 <option value="five">5</option>
                                 <option value="ten">10</option>
@@ -237,10 +466,10 @@
             </section>
             <button type="submit">Забронировать</button>
         </form>
-    </section>
+    </section> -->
 
 
-    <section id="aboutUs">
+    <!-- <section id="aboutUs">
         <h2>
             О нас
         </h2>
@@ -313,8 +542,8 @@
                 Какая комната самая популярная?
             </li>
         </ul>
-    </section>
-    <section id="contacts">
+    </section> -->
+    <!-- <section id="contacts">
         <h2>
             Контакты
         </h2>
@@ -331,8 +560,8 @@
                 </li>
             </ul>
         </section>
-    </section>
-</div>
+    </section> -->
+    <!-- </div> -->
 </body>
 
 </html>

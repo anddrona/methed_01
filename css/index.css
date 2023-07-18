@@ -1,7 +1,186 @@
 @import url(../css/style.css);
 @import url(../css/faq.css);
 
-#questions ul li {
+@font-face {
+    font-family: "Arial Bold";
+    src: url("../fonts/ofont.ru_Arial.ttf");
+}
+
+body {
+    margin: 0;
+    background: #1B1A1B;
+    font-family: "Arial", sans-serif;
+    color: white;
+}
+
+article {
+    margin: 0 auto;
+    max-width: 1180px;
+    padding-top: 146px;
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-size: 150px;
+    letter-spacing: -15px;
+    line-height: 1;
+    font-family: Arial Black;
+}
+
+p,
+h1,
+h3 {
+    margin: 0;
+}
+
+header p {
+    font-size: 28px;
+    padding-left: 90px;
+}
+
+header {
+    position: relative;
+}
+
+header::after {
+    content: url("../img/images/banner.png");
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 56px;
+    max-width: 675px;
+}
+
+.halls-block {
+    text-align: center;
+    margin-top: 730px;
+}
+
+
+h3 {
+    margin-top: 100px;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: "Arial Bold", sans-serif;
+}
+
+.halls-items {
+    margin-top: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 710px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.halls-block a:nth-child(2) .halls-items {
+    background-image: url("../img/images/Rectangle\ 29.jpg");
+}
+
+.halls-block a:nth-child(3) .halls-items {
+    background-image: url("../img/images/Rectangle\ 29-1.jpg");
+}
+
+.halls-block a:nth-child(4) .halls-items {
+    background-image: url("../img/images/Rectangle\ 29-2.jpg");
+}
+
+.halls-block a:nth-child(5) .halls-items {
+    background-image: url("../img/images/Rectangle\ 29-3.jpg");
+}
+
+.halls-block a {
+    text-transform: uppercase;
+    font-size: 70px;
+    color: white;
+}
+
+.halls-items p {
+    max-width: 221px;
+    font-family: "Arial Bold", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.about-us p {
+    font-size: 20px;
+}
+
+.about-us>p:nth-child(2) {
+    margin-bottom: 36px;
+}
+
+.about-us{
+    margin: 0 auto;
+}
+
+.about-us blockquote {
+    margin: 70px auto 0 auto;
+}
+
+.about-us blockquote>p {
+    font-size: 44px;
+    text-transform: uppercase;
+    line-height: 50px;
+    
+}
+
+q {
+    color: #6C0287;
+    display: flex;
+    justify-content: start;
+    quotes: "“" "”";
+    margin-bottom: 45px;
+}
+
+
+q::before, q::after{
+    font-size: 50px;
+    font-size: 70px;
+}  
+
+q::before{
+    margin-right: 20px;
+    display: flex;
+    align-items: start;
+}
+
+q::after{
+    display: flex;
+    align-items: end;
+    margin-left: 10px;
+} 
+
+q span {
+    color: white;
+    white-space: pre-line;
+}
+
+blockquote section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 350px;
+    margin: 0 50px 0 auto;
+}
+
+blockquote section img {
+    width: 80px;
+}
+
+blockquote section p{
+    font-size: 20px;
+    line-height: 28px;
+    max-width: 234px;
+}
+
+.questions ul li {
     background-color: #fff;
     color: #1C1A1A;
     font-weight: 700;
@@ -14,12 +193,12 @@
     justify-content: space-between;
 }
 
-#questions ul li:nth-child(2n) {
+.questions ul li:nth-child(2n) {
     color: white;
     background-color: #440F51;
 }
 
-#questions ul li:after {
+.questions ul li:after {
     content: "";
     display: inline-block;
     height: 35px;
@@ -27,10 +206,42 @@
     background-size: cover;
 }
 
-#questions ul li:nth-child(2n+1)::after {
+.questions ul li:nth-child(2n+1)::after {
     background-image: url("../img/open-purple.svg");
 }
 
-#questions ul li:nth-child(2n+2)::after {
+.questions ul li:nth-child(2n+2)::after {
     background-image: url("../img/open.svg");
+}
+
+.contacts section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 330px;
+    font-family: "Arial Bold", sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 38px;
+} 
+
+.contacts section p, .contacts section a {
+    width: 262px;
+}
+
+.contacts section a {
+    color: white;
+}
+
+.contacts section:nth-child(3){
+    margin-bottom: 0;
+}
+
+.contacts section:last-child{
+    max-width: 280px;
+    margin-bottom: 50px;
+}
+
+.contacts section:last-child a{
+    height: 50px;
 }
