@@ -1,5 +1,5 @@
-@import url(../css/style.css);
-@import url(../css/faq.css);
+@import url(../css/normalize.css);
+@import url(../css/global-style.css);
 
 @font-face {
     font-family: "Arial Bold";
@@ -7,15 +7,17 @@
 }
 
 body {
-    margin: 0;
     background: #1B1A1B;
-    font-family: "Arial", sans-serif;
     color: white;
+}
+
+article > * {
+    padding: 0 30px;
 }
 
 article {
     margin: 0 auto;
-    max-width: 1180px;
+    max-width: 1240px;
     padding-top: 146px;
 }
 
@@ -25,12 +27,6 @@ header h1 {
     letter-spacing: -15px;
     line-height: 1;
     font-family: Arial Black;
-}
-
-p,
-h1,
-h3 {
-    margin: 0;
 }
 
 header p {
@@ -46,7 +42,7 @@ header::after {
     content: url("../img/images/banner.png");
     display: block;
     position: absolute;
-    right: 0;
+    right: 30px;
     top: 56px;
     max-width: 675px;
 }
@@ -96,16 +92,11 @@ h3 {
 .halls-block a {
     text-transform: uppercase;
     font-size: 70px;
-    color: white;
 }
 
 .halls-items p {
     max-width: 221px;
     font-family: "Arial Bold", sans-serif;
-}
-
-a {
-    text-decoration: none;
 }
 
 .about-us p {
@@ -128,7 +119,6 @@ a {
     font-size: 44px;
     text-transform: uppercase;
     line-height: 50px;
-    
 }
 
 q {
@@ -187,7 +177,6 @@ blockquote section p{
     font-size: 24px;
     padding: 30px 70px;
     margin-bottom: 20px;
-    list-style-type: none;
     display: flex;
     align-items: center;
     justify-content: space-between;
