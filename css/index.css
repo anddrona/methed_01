@@ -11,17 +11,21 @@ body {
     color: white;
 }
 
-article > * {
-    padding: 0 30px;
-}
-
 article {
-    margin: 0 auto;
-    max-width: 1240px;
     padding-top: 146px;
 }
 
-header h1 {
+.container {
+    padding: 50px 30px;
+    margin: 0 auto;
+    max-width: 1240px;
+}
+
+.header {
+    padding-top: 0;
+}
+
+.header h1 {
     text-transform: uppercase;
     font-size: 150px;
     letter-spacing: -15px;
@@ -29,16 +33,17 @@ header h1 {
     font-family: Arial Black;
 }
 
-header p {
+.header p {
     font-size: 28px;
     padding-left: 90px;
 }
 
-header {
+.header {
     position: relative;
+    min-height: 870px;
 }
 
-header::after {
+.header::after {
     content: url("../img/images/banner.png");
     display: block;
     position: absolute;
@@ -49,17 +54,18 @@ header::after {
 
 .halls-block {
     text-align: center;
-    margin-top: 730px;
 }
 
-
 h3 {
-    margin-top: 100px;
     text-transform: uppercase;
     font-size: 40px;
     text-align: center;
     margin-bottom: 50px;
     font-family: "Arial Bold", sans-serif;
+}
+
+.halls-block h3{
+    margin-bottom: 0;
 }
 
 .halls-items {
@@ -147,12 +153,12 @@ q::after{
     margin-left: 10px;
 } 
 
-q span {
+q .color-white {
     color: white;
     white-space: pre-line;
 }
 
-blockquote section {
+.about-us blockquote section {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -160,11 +166,11 @@ blockquote section {
     margin: 0 50px 0 auto;
 }
 
-blockquote section img {
+.about-us blockquote section img {
     width: 80px;
 }
 
-blockquote section p{
+.about-us blockquote section p{
     font-size: 20px;
     line-height: 28px;
     max-width: 234px;
@@ -203,6 +209,10 @@ blockquote section p{
     background-image: url("../img/open.svg");
 }
 
+.questions ul li:last-child{
+    margin-bottom: 0;
+}
+
 .contacts section {
     display: flex;
     align-items: center;
@@ -222,15 +232,15 @@ blockquote section p{
     color: white;
 }
 
-.contacts section:nth-child(3){
+.contacts .phone{
     margin-bottom: 0;
 }
 
-.contacts section:last-child{
+.contacts .networks {
     max-width: 280px;
     margin-bottom: 50px;
 }
 
-.contacts section:last-child a{
+.contacts .networks a {
     height: 50px;
 }
