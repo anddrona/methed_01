@@ -12,33 +12,38 @@
 
 <body>
     <article>
+
         <section class="header container">
             <h1>game over</h1>
             <p>Новый формат игр и отдыха</p>
         </section>
+
         <section class="halls-block container">
+
             <h3>Наши залы</h3>
-            <a href="./vibes.html" target="_blank">
-                <section class="halls-items">
+            <a href="./vibes.html" target="_blank" class="halls-block__element">
+                <section class="halls-block halls-block__element_item">
                     <p>80’s vibes</p>
                 </section>
             </a>
-            <a href="./starwars.html" target="_blank">
-                <section class="halls-items">
+
+            <a href="./starwars.html" target="_blank" class="halls-block__element">
+                <section class="halls-block halls-block__element_item">
                     <p>Star wars</p>
                 </section>
             </a>
-            <a href="./wildwest.html" target="_blank">
-                <section class="halls-items">
+            <a href="./wildwest.html" target="_blank" class="halls-block__element">
+                <section class="halls-block halls-block__element_item">
                     <p>wild west</p>
                 </section>
             </a>
-            <a href="./neon.html" target="_blank">
-                <section class="halls-items">
+            <a href="./neon.html" target="_blank" class="halls-block__element">
+                <section class="halls-block halls-block__element_item">
                     <p>neon style</p>
                 </section>
             </a>
         </section>
+
         <section class="order container">
             <form action="https://jsonplaceholder.typicode.com/posts" method="post">
                 <h3>
@@ -163,17 +168,20 @@
                 </label>
             </form>
         </section>
+
+
+
         <section class="about-us container">
             <h3>О нас</h3>
-            <p>
+            <p class="about-us__text">
                 Для наших гостей мы создали концeптуально новое игровое пространство виртуальной реальности
                 в центральной части города.
             </p>
-            <p>Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать
+            <p class="about-us__text">Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать
                 Вас топовыми игровыми разработками со всего мира.
             </p>
-            <blockquote>
-                <p><q><span class="color-white">GAME OVER &#8212;
+            <blockquote class="about-us__citation">
+                <p><q><span class="about-us__citation_color-white">GAME OVER &#8212;
                             это место незабываемых впечатлений</span></q></p>
                 <section>
                     <img src="./img/images/photo.png" alt="Фото Аркадия Абашкина">
@@ -183,46 +191,51 @@
                 </section>
             </blockquote>
         </section>
+
+
         <section class="questions container">
             <h3>
                 Частые вопросы
             </h3>
-            <ul>
-                <li>
+            <ul class="questions questions__questions-block">
+                <li class="questions questions__questions-block_questions">
                     Можно ли забронировать комнату онлайн?
                 </li>
-                <li>
+                <li class="questions questions__questions-block_questions">
                     Могут ли мне вернуть деньги за бронь?
                 </li>
-                <li>
+                <li class="questions questions__questions-block_questions">
                     Какая комната самая популярная?
                 </li>
-                <li>
+                <li class="questions questions__questions-block_questions"> 
                     Как получить VIP карту?
                 </li>
-                <li>
+                <li class="questions questions__questions-block_questions">
                     Какая комната самая популярная?
                 </li>
             </ul>
         </section>
+
+
+
         <section class="contacts container">
             <h3>
                 Контакты
             </h3>
-            <section class="location">
+            <section class="contacts__item contacts__item_location">
                 <img src="./img/images/location.svg">
                 <p>г. Москва ул. Аквамарина, 16</p>
             </section>
-            <section class="phone">
+            <section class="contacts__item contacts__item_phone">
                 <img src="./img/images/bx_bxs-phone-call.svg">
                 <a href="tel:89509302893">8 ( 950 ) 930 - 28 - 93</a>
             </section>
-            <section class="mail">
+            <section class="contacts__item contacts__item_mail">
                 <img src="./img/images/envelope.svg">
                 <a href="mailto:GameOver@gmail.com">GameOver@gmail.com</a>
             </section>
-            <section class="networks">
-                <a href="https://vk.com" target="_blank">
+            <section class="contacts__item contacts__item_networks">
+                <a href="https://vk.com" target="_blank" >
                     <img src="./img/images/entypo-social_vk-with-circle.svg">
                 </a>
                 <a href="https://telegram.org" target="_blank">

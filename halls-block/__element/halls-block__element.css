@@ -1,0 +1,15 @@
+.halls-block__element_item {
+    margin-top: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 710px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.halls-block a {
+    text-transform: uppercase;
+    font-size: 70px;
+}

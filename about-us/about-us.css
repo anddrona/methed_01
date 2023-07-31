@@ -1,0 +1,6 @@
+@import url(./__citation/about-us__citation.css);
+@import url(./__text/about-us__text.css);
+
+.about-us{
+    margin: 0 auto;
+}

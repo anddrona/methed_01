@@ -1,0 +1,12 @@
+.contacts .contacts__item_network a {
+    color: white;
+}
+
+.contacts .contacts__item_network {
+    max-width: 280px;
+    margin-bottom: 50px;
+}
+
+.contacts .contacts__item_network a {
+    height: 50px;
+}
