@@ -1,0 +1,36 @@
+.bg__img_vibe {
+    background-image: url('../../img/images/Rectangle\ 29.jpg');
+}
+
+.bg__img_wild-west {
+    background-image: url('../../img/images/Rectangle\ 29-1.jpg');
+}
+
+.bg__img_star-wars {
+    background-image: url('../../img/images/Rectangle\ 29-2.jpg');
+}
+
+.bg__img_neon {
+    background-image: url('../../img/images/Rectangle\ 29-3.jpg');
+}
+
+.bg {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 710px;
+}
+
+.halls__item{
+    margin-bottom: 60px;
+}
+
+.halls__item:last-child{
+    margin: 0;
+} 
+
+.halls__title {
+    max-width: 221px;
+    font-family: "Arial Bold", sans-serif;
+    font-size: 70px;
+}

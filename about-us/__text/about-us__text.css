@@ -1,7 +1,0 @@
-.about-us .about-us__text {
-    font-size: 20px;
-}
-
-.about-us>.about-us__text:nth-child(2) {
-    margin-bottom: 36px;
-}

@@ -2,29 +2,28 @@
     padding-top: 0;
 }
 
-.header h1 {
-    text-transform: uppercase;
+.header__title {
     font-size: 150px;
     letter-spacing: -15px;
     line-height: 1;
     font-family: Arial Black;
 }
 
-.header p {
+.header__subtitle {
     font-size: 28px;
     padding-left: 90px;
 }
 
 .header {
     position: relative;
-    min-height: 870px;
+    min-height: 911px;
 }
 
 .header::after {
-    content: url("../img/images/banner.png");
+    content: url("../../img/images/banner.png");
     display: block;
     position: absolute;
     right: 30px;
-    top: 56px;
+    top: 100px;
     max-width: 675px;
 }
