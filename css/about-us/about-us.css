@@ -9,7 +9,6 @@
 
 .about-us__citation {
     margin: 0 auto;
-    padding-top: 34px;
 }
 
 .citation__title {
@@ -58,4 +57,12 @@
 .about-us__text {
     font-size: 20px;
     margin-bottom: 36px;
+}
+
+.about-us__text-block{
+    margin-bottom: 70px;
+}
+
+.about-us__text:last-child{
+    margin-bottom: 0;
 }
