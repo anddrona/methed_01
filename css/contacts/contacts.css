@@ -4,16 +4,15 @@
     font-family: "Arial Bold", sans-serif;
     font-size: 24px;
     line-height: 28px;
-    margin-bottom: 38px;
 }
 
-.contacts__item:last-child{
-    margin-bottom: 0;
+.address-block, .contacts__item:first-child {
+    margin-bottom: 38px;
 }
 
 .text-location,
 .link {
-    width: 262px;
+    min-width: 262px;
 }
 
 .text-location{
@@ -26,7 +25,8 @@
 
 .networks {
     max-width: 280px;
-    margin-bottom: 50px;
+    align-items: baseline;
+    max-height: 50px;
 }
 
 .networks .link {
@@ -34,5 +34,10 @@
 }
 
 .phone {
-    margin-bottom: 0;
+    margin-bottom: 5px;
+}
+
+.contacts {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }

@@ -35,3 +35,8 @@
 .questions__list-item:last-child{
     margin-bottom: 0;
 }
+
+.questions {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

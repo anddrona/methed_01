@@ -1,11 +1,7 @@
 .about-us{
     margin: 0 auto;
-}
-
-.about-us__citation_color-white {
-    color: white;
-    white-space: pre-line;
-    max-width: 324px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .about-us__citation {
@@ -15,6 +11,9 @@
 .citation__title {
     font-size: 44px;
     line-height: 50px;
+    color: white;
+    white-space: pre-line;
+    max-width: 324px;
 }
 
 .creator-block {
@@ -38,21 +37,21 @@
     justify-content: start;
     align-items: normal;
     quotes: "“" "”";
-    margin-bottom: 45px;
+    margin-bottom: 50px;
 }
 
 .quotes::before{
     margin-right: 4px;
     display: flex;
     align-items: start;
-    font-size: 70px;
+    font-size: 50px;
 }
 
 .quotes::after{
     display: flex;
     align-items: end;
     margin-left: 10px;
-    font-size: 70px;
+    font-size: 53px;
 } 
 
 .about-us__text {

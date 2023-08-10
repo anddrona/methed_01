@@ -1,18 +1,18 @@
 .bg__img_vibe {
-    background-image: url('../../img/images/Rectangle\ 29.jpg');
+    background-image: url('../../img/images/Rectangle29.jpg');
 
 }
 
 .bg__img_wild-west {
-    background-image: url('../../img/images/Rectangle\ 29-1.jpg');
+    background-image: url('../../img/images/Rectangle29-1.jpg');
 }
 
 .bg__img_star-wars {
-    background-image: url('../../img/images/Rectangle\ 29-2.jpg');
+    background-image: url('../../img/images/Rectangle29-2.jpg');
 }
 
 .bg__img_neon {
-    background-image: url('../../img/images/Rectangle\ 29-3.jpg');
+    background-image: url('../../img/images/Rectangle29-3.jpg');
 }
 
 .bg {
@@ -41,4 +41,8 @@
 
 .halls-block.flex{
     justify-content: space-between;
+}
+.halls {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }

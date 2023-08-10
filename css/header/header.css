@@ -17,13 +17,15 @@
 .header {
     position: relative;
     min-height: 911px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .header::after {
     content: url("../../img/images/banner.png");
     display: block;
     position: absolute;
-    right: 30px;
+    right: 116px;
     top: 100px;
     max-width: 675px;
 }
